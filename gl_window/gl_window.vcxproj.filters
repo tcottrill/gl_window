@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\sys_video">
+      <UniqueIdentifier>{63a14a47-9743-427b-b0d2-7dd29b2ffeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{1850645c-e0d9-4adb-ab17-6223bbefb94c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="emulator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_video\glew.h">
+      <Filter>Source Files\sys_video</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_video\rotation_table.h">
+      <Filter>Source Files\sys_video</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_video\sys_gl.h">
+      <Filter>Source Files\sys_video</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_video\texrect2dvbo.h">
+      <Filter>Source Files\sys_video</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_video\wglew.h">
+      <Filter>Source Files\sys_video</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_video\gl_prim_debug.h">
+      <Filter>Source Files\sys_video</Filter>
+    </ClInclude>
+    <ClInclude Include="System\rawinput.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\log.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\os_basic.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\ini.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\wintimer.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\utfconverter.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_video\colordefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sys_video\MathUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="emulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_video\glew.c">
+      <Filter>Source Files\sys_video</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_video\sys_gl.cpp">
+      <Filter>Source Files\sys_video</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_video\texrect2dvbo.cpp">
+      <Filter>Source Files\sys_video</Filter>
+    </ClCompile>
+    <ClCompile Include="Sys_video\gl_prim_debug.cpp">
+      <Filter>Source Files\sys_video</Filter>
+    </ClCompile>
+    <ClCompile Include="System\rawinput.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\winmain.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\log.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\os_basic.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\ini.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\wintimer.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\utfconverter.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

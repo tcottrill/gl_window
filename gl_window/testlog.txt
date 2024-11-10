@@ -1,0 +1,13 @@
+Opening Log
+this is windows 10
+
+this is windows 10
+
+Actual Screen Width 1274, Actual Screen Height 993
+string here is C:\Source2025\gl_window\Debug\gl_window.exe
+OpenGL 4.6.0 NVIDIA 560.94, GLSL 4.60 NVIDIA
+
+Status: Using GLEW 2.2.0
+
+Closing Log
+Closing log, ending program.
